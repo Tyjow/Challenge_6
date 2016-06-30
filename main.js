@@ -1,5 +1,5 @@
 function affichage() {
-    var compteur = document.getElementById('affichage').innerHTML;
-    compteur++;
-    document.getElementById('affichage').innerHTML = compteur;
+    var score = document.getElementById('affichage').innerHTML;
+    score++;
+    document.getElementById('affichage').innerHTML = score;
 }
