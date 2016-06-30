@@ -2,9 +2,13 @@ var compteur = 1;
 var score = 0;
 var prix = 50;
 
+
 function affichage() {
     score = score + compteur;
     document.getElementById('affichage').innerHTML = score;
+    if (score == 200) {
+    	setInterval(affichage, 1000);
+    }
 }
 
 function incrementer() {
