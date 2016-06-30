@@ -1,6 +1,5 @@
-var nombreDepart = 1;
-var nombreActuel = nombreDepart;
-
 function affichage() {
-    document.getElementById('affichage').value = ++nombreActuel;
+    var compteur = document.getElementById('affichage').innerHTML;
+    compteur++;
+    document.getElementById('affichage').innerHTML = compteur;
 }
